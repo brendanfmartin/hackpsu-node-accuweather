@@ -45,7 +45,7 @@
       city: 'State College',
     };
 
-    var url = 'http://apidev.accuweather.com/locations/v1/cities/geoposition.json?q='+lat+','+long+'&apikey='+apiKey;
+    var url = 'http://apidev.accuweather.com/locations/v1/cities/geoposition.json?q='+config.lat+','+config.long+'&apikey='+config.apiKey;
     var requestOptions = {
       url: url
     };
